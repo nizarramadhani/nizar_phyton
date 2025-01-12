@@ -1,0 +1,115 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nizarramadhani/nizar_phyton/blob/main/LATIHAN%20P8%20NIZAR%20RAMADHANI\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**SOAL NOMOR 1**"
+      ],
+      "metadata": {
+        "id": "LuOsAJCPPDLH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "S = [4, 1, -1, 10, 0, 12]\n",
+        "\n",
+        "D = 2\n",
+        "\n",
+        "S =[x * D for x in S]\n",
+        "\n",
+        "print(\"array setelah dikaliakn dengan D:\", S)\n"
+      ],
+      "metadata": {
+        "id": "AbS3nbh0PKJP",
+        "outputId": "b393b146-b3b2-4b4b-9624-1f769139fb24",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "array setelah dikaliakn dengan D: [8, 2, -2, 20, 0, 24]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**SOAL NOMOR 2**"
+      ],
+      "metadata": {
+        "id": "iY7XDkCLO2Tb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#program untuk mencari nilai terbesar dari elemen array\n",
+        "\n",
+        "#masukkan elemen array T\n",
+        "T1= [9,12,30,-1,0,4,-1,3,30,14]\n",
+        "nilai_terbesar = max(T1)\n",
+        "nilai_terkecil = min(T1)\n",
+        "print(\"nilai terbesar dari elemen array T1 adalah:\", nilai_terbesar)\n",
+        "print(\"nilai terkecil dari elemen array T1 adalah:\", nilai_terkecil)\n",
+        "\n",
+        "#masukkan elemen array T\n",
+        "T2=[1,3,5,8,-12,90,3,5]\n",
+        "nilai_terbesar =max(T2)\n",
+        "nilai_terkecil =min(T2)\n",
+        "print(\"nilai terbesar dari elemen array T2 adalah:\", nilai_terbesar)\n",
+        "print(\"nilai terkecil dari elemen array T2 adalah:\", nilai_terkecil)"
+      ],
+      "metadata": {
+        "id": "YBseXGx5O7-t",
+        "outputId": "36603ffd-f78d-499e-e3dc-2734d7087e56",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nilai terbesar dari elemen array T1 adalah: 30\n",
+            "nilai terkecil dari elemen array T1 adalah: -1\n",
+            "nilai terbesar dari elemen array T2 adalah: 90\n",
+            "nilai terkecil dari elemen array T2 adalah: -12\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
